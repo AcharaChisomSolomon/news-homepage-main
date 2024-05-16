@@ -21,6 +21,7 @@
 }
 body {
     max-width: 90rem;
+    margin: 0 auto;
     font-family: var(--font-family);
     background: var(--main-bg-color);
     padding: var(--body-top-padding) var(--body-side-padding) clamp(4.7rem, 3.5380281690140847rem + 4.957746478873239vw, 8rem);
@@ -174,7 +175,7 @@ header {
     display: flex;
     gap: 2rem;
     flex-direction: column;
-    padding-top: clamp(4rem, 3.823943661971831rem + 0.7511737089201878vw, 4.5rem);;
+    padding-top: clamp(4rem, 3.823943661971831rem + 0.7511737089201878vw, 4.5rem);
 }
 .footer-news article {
     display: inline-flex;
